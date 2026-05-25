@@ -1,0 +1,32 @@
+package biblioteca.validator;
+
+// validator pentru numele unei carti  
+
+public class InputValidator {
+    private InputValidator(){
+
+    }
+
+    public static String validareNumeCarte(String numeCarte) {
+        if (numeCarte == null || numeCarte.isBlank()) {
+            throw new IllegalArgumentException("Numele cartii nu poate fi null sau blank!");
+        }
+        if (numeCarte.matches(".*\\d.*")) {
+            throw new IllegalArgumentException("Numele cartii nu poate contine cifre!");
+        }
+        if (numeCarte.matches(".*[!@#$%^&*(),.?\":{}|<>].*")) {
+            throw new IllegalArgumentException("Numele cartii nu poate contine caractere speciale!");
+        }
+        return numeCarte;
+    }
+
+    public static String validareEmail(String email) {
+        if (email == null || email.isBlank()) {
+            throw new IllegalArgumentException("Email-ul nu poate fi null sau blank!");
+        }
+        if (!email.matches("^[A-Za-z0-9+_.-]+@(.+)$")) {
+            throw new IllegalArgumentException("Email-ul nu este valid!");
+        }
+        return email;
+    }
+}

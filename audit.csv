@@ -1,0 +1,145 @@
+actiune,timestamp
+Initializeaza baza de date,2026-05-21T15:42:43.668848800Z
+Testeaza conexiunea la baza de date,2026-05-21T15:42:46.692004400Z
+Listeaza cititorii,2026-05-21T15:42:54.453577500Z
+Initializeaza baza de date,2026-05-23T09:00:46.096232300Z
+Testeaza conexiunea la baza de date,2026-05-23T09:00:52.544422200Z
+Adauga cititor: Lee Andrew,2026-05-23T09:01:25.770438Z
+Listeaza cititorii,2026-05-23T09:01:34.559658800Z
+Actualizeaza cititor: 1,2026-05-23T09:04:06.474202800Z
+Listeaza cititorii,2026-05-23T09:04:12.399305100Z
+Gaseste cititor dupa ID: 1,2026-05-23T09:04:27.385140Z
+Adauga carte: Queen Margot de Alexandre Dumas,2026-05-23T09:05:46.263785100Z
+Listeaza cartile,2026-05-23T09:05:58.819125700Z
+Adauga angajat: Kan Pescq,2026-05-23T09:07:07.674101300Z
+Initializeaza baza de date,2026-05-23T09:33:16.798129600Z
+Testeaza conexiunea la baza de date,2026-05-23T09:33:17.428799800Z
+Listeaza cititorii,2026-05-23T09:33:21.429834300Z
+Adauga cititor: Reese Connard,2026-05-23T09:34:00.692410100Z
+Listeaza cititorii,2026-05-23T09:34:11.132933300Z
+Gaseste cititor dupa ID: 1,2026-05-23T09:35:01.651734Z
+Gaseste cititor dupa ID: 2,2026-05-23T09:35:05.580657400Z
+Reseteaza baza de date,2026-05-23T10:07:15.313146400Z
+Initializeaza baza de date,2026-05-23T10:07:20.078766100Z
+Testeaza conexiunea la baza de date,2026-05-23T10:07:24.722046500Z
+Listeaza cititorii,2026-05-23T10:07:30.858576100Z
+Adauga cititor: Lee Andrew,2026-05-23T10:08:01.880753500Z
+Schimba abonament cititor=1 la PREMIUM,2026-05-23T10:08:33.160692100Z
+Adauga carte: A Court of Thorns and Roses de Sarah J. Maas,2026-05-23T15:21:27.627476700Z
+Listeaza cartile,2026-05-23T15:21:38.658563700Z
+Listeaza cititorii,2026-05-23T15:21:48.861384800Z
+"Adauga recenzie: cititor=1, carte=A Court of Thorns and Roses, stele=4",2026-05-23T15:33:35.194155600Z
+Testeaza conexiunea la baza de date,2026-05-24T09:28:41.347594200Z
+Reseteaza baza de date,2026-05-24T09:41:05.703464800Z
+Initializeaza baza de date,2026-05-24T09:41:07.991180100Z
+Testeaza conexiunea la baza de date,2026-05-24T09:41:08.738108500Z
+Adauga editura: BIBLIOTEQ cu 1 carti,2026-05-24T09:41:40.334390400Z
+Listeaza cititorii,2026-05-24T09:41:54.022083200Z
+Sterge angajat: 1,2026-05-24T09:42:13.405021800Z
+Adauga carte: ACOTAR de SJM,2026-05-24T09:50:57.942013400Z
+Adauga carte: THE MAGUS de JOHN FOWLES,2026-05-24T09:51:27.399504500Z
+Adauga carte: ACOMAF de SJM,2026-05-24T09:51:50.919101900Z
+Listeaza cartile dupa gen sortate: FANTASY,2026-05-24T09:51:57.584389800Z
+Testeaza conexiunea la baza de date,2026-05-24T14:45:59.724798500Z
+Listeaza angajatii,2026-05-24T14:46:08.325977100Z
+Listeaza cititorii,2026-05-24T14:46:19.323277900Z
+Adauga editura: Pinguin cu 3 carti,2026-05-24T14:48:34.243626100Z
+Adaugati cititor: Lee Andrew,2026-05-24T14:52:49.326967300Z
+Schimba abonament cititor=1 la PREMIUM,2026-05-24T14:53:27.740055300Z
+Listeaza cartile,2026-05-24T15:18:26.824265400Z
+"Adauga recenzie: cititor=1, carte=ACOMAF, stele=1",2026-05-24T15:19:05.500584600Z
+Listeaza cartile dupa gen sortate: FANTASY,2026-05-24T15:19:19.333814800Z
+Listeaza cartile,2026-05-24T15:22:24.320594600Z
+Listeaza cartile,2026-05-24T15:23:49.117445800Z
+"Imprumuta carte: cititor=1, carte=ACOMAF",2026-05-24T16:02:20.750463700Z
+"Imprumuta carte: cititor=1, carte=The Magus",2026-05-24T17:18:33.740586500Z
+"Imprumuta carte: cititor=1, carte=ACOTAR",2026-05-24T17:40:54.394727600Z
+"Returneaza carte: cititor=1, imprumut=1",2026-05-24T17:41:41.583120200Z
+"Adauga recenzie: cititor=1, carte=ACOTAR, stele=4",2026-05-24T17:41:58.364139800Z
+Vizualizeaza recenziile pentru cartea: ACOTAR,2026-05-24T17:42:08.034062200Z
+Adaugati cititor: Winter Henry,2026-05-24T18:05:06.775850100Z
+"Proceseaza plata abonament: 2, suma=20.0, metoda=card",2026-05-24T18:10:26.520329500Z
+"Imprumuta carte: cititor=2, carte=ACOMAF",2026-05-24T18:10:32.976027100Z
+Listeaza cartile,2026-05-24T18:10:36.601532600Z
+"Imprumuta carte: cititor=2, carte=acotar",2026-05-24T18:10:52.934187200Z
+"Adauga recenzie: cititor=2, carte=acotar, stele=3",2026-05-24T18:11:19.460699800Z
+"Adauga recenzie: cititor=2, carte=acomaf, stele=4",2026-05-24T18:20:12.045989100Z
+Adaugati cititor: macauley camilla,2026-05-24T18:21:15.836630100Z
+"Proceseaza plata abonament: 3, suma=20.0, metoda=cash",2026-05-24T18:21:30.818617400Z
+Listeaza cartile dupa gen sortate: FICTION,2026-05-24T18:21:46.910763600Z
+Adauga carte: ACOSF de SJM,2026-05-24T18:22:29.957261800Z
+Adaugati cititor: Macauley Charles,2026-05-24T18:27:51.497774600Z
+Actualizeaza cititor: 4,2026-05-24T18:28:18.885408700Z
+Sterge cititor: 4,2026-05-24T18:28:31.518403300Z
+Adauga autor: Tartt Donna cu 2 carti,2026-05-24T18:32:50.798869900Z
+Adauga editura: rainbow cu 1 carti,2026-05-24T18:33:37.999489700Z
+Schimba abonament cititor=2 la PREMIUM,2026-05-24T18:40:24.410164400Z
+Listeaza cartile,2026-05-24T18:40:37.879744300Z
+Listeaza cartile dupa gen sortate: SCIENCE_FICTION,2026-05-24T18:41:57.526080800Z
+Adauga carte: The Secret History de Donna Tartt,2026-05-24T18:43:00.197002700Z
+Listeaza cartile,2026-05-24T18:43:12.122342900Z
+Adauga autor: King Stephen cu 2 carti,2026-05-25T07:53:37.155552600Z
+Schimba abonament cititor=2 la STANDARD,2026-05-25T08:42:32.735661300Z
+Actualizeaza cititor: 1,2026-05-25T08:43:40.198111100Z
+Gaseste cititor dupa ID: 2,2026-05-25T08:43:45.593684100Z
+Listeaza cititorii,2026-05-25T08:43:53.015131400Z
+Adauga carte: The Hunger Games de Suzanne Collins,2026-05-25T08:44:52.264791400Z
+Listeaza cartile,2026-05-25T08:48:12.009988200Z
+Listeaza cartile dupa gen sortate: FICTION,2026-05-25T08:48:17.828691300Z
+Schimba abonament cititor=2 la PREMIUM,2026-05-25T08:56:14.754706300Z
+"Imprumut carte: cititor=2, carte=the hunger games",2026-05-25T08:56:25.375507800Z
+Reseteaza baza de date,2026-05-25T09:14:59.096324500Z
+Initializare baza de date,2026-05-25T09:15:02.950124700Z
+Verificare conexiune cu baza de date,2026-05-25T09:15:04.638556400Z
+Adaugati cititor: Winter Henry,2026-05-25T09:15:40.626001100Z
+Adaugati cititor: Papen Richard,2026-05-25T09:16:04.862159400Z
+Adaugati cititor: Macauley Camilla,2026-05-25T09:16:41.630211100Z
+Listeaza cititorii,2026-05-25T09:16:44.803708500Z
+Adaugati cititor: Macauley Charles,2026-05-25T09:17:14.203812200Z
+Adauga carte: The Goldfinch de Donna Tartt,2026-05-25T09:17:42.764807300Z
+Adauga carte: AI2041 de Kai-fu Lee,2026-05-25T09:18:14.775636500Z
+Adauga carte: Crime on the Orient Express de Agatha Christie,2026-05-25T09:19:04.220397400Z
+Adauga carte: ACOTAR de SJM,2026-05-25T09:19:30.278057900Z
+Adauga carte: Dracula de Bram Stocker,2026-05-25T09:19:52.258440Z
+Gaseste cititor dupa ID: 1,2026-05-25T09:20:03.863447300Z
+"Proceseaza plata abonament: 1, suma=20.0, metoda=card",2026-05-25T09:20:40.576724900Z
+"Imprumut carte: cititor=1, carte=ACOTAR",2026-05-25T09:21:00.796033400Z
+Listeaza cartile dupa gen sortate: FICTION,2026-05-25T09:21:20.604142200Z
+Adauga autor: SJM Jr. cu 2 carti,2026-05-25T09:21:51.994187600Z
+Reseteaza baza de date,2026-05-25T09:24:19.634023500Z
+Reseteaza baza de date,2026-05-25T09:39:37.859565300Z
+Initializare baza de date,2026-05-25T09:39:39.715325600Z
+Verificare conexiune cu baza de date,2026-05-25T09:39:40.709239800Z
+Adauga editura: rainbows cu 1 carti,2026-05-25T09:40:08.093451100Z
+Adaugati cititor: Winter Henry,2026-05-25T10:33:40.046445800Z
+Adaugati cititor: Papen Richard,2026-05-25T10:33:57.706946600Z
+Adaugati cititor: Macauley Camilla,2026-05-25T10:34:11.032585Z
+Adaugati cititor: Macauley Charles,2026-05-25T10:34:23.125504800Z
+Adaugati cititor: Aberthany Francis,2026-05-25T10:34:55.560604300Z
+"Proceseaza plata abonament: 1, suma=20.0, metoda=card",2026-05-25T10:35:10.504832500Z
+Adauga carte: The Goldfinch de Donna Tartt,2026-05-25T10:35:46.291787800Z
+Adauga carte: My Little Friend de Donna Tartt,2026-05-25T10:36:08.635984300Z
+Adauga carte: Crime on the Orient Express de Agatha Christie,2026-05-25T10:36:39.663196600Z
+Adauga carte: The Shining de Stephen King,2026-05-25T10:37:10.866982900Z
+Listeaza cititorii,2026-05-25T10:37:18.765062500Z
+Adaugati cititor: Lee Andrew,2026-05-25T10:37:51.577157100Z
+Gaseste cititor dupa ID: 3,2026-05-25T10:37:55.772104200Z
+Actualizeaza cititor: 6,2026-05-25T10:38:18.157609300Z
+Listeaza cititorii,2026-05-25T10:38:22.024271900Z
+Adauga angajat: Choo Paryl,2026-05-25T10:39:03.200561400Z
+Gaseste angajat dupa ID: 1,2026-05-25T10:39:14.393800400Z
+Listeaza angajatii,2026-05-25T10:39:19.414580600Z
+Listeaza angajatii,2026-05-25T10:39:30.378806700Z
+Listeaza cartile,2026-05-25T12:29:03.750223800Z
+Listeaza cartile dupa gen sortate: FICTION,2026-05-25T12:29:08.972843600Z
+Listeaza cartile dupa gen sortate: MYSTERY,2026-05-25T12:29:12.127746300Z
+Cauta cititor dupa ID: 9,2026-05-25T12:29:22.349477500Z
+"Proceseaza plata abonament: 2, suma=20.0, metoda=card",2026-05-25T12:29:28.078382500Z
+Listeaza cititorii,2026-05-25T12:29:42.286760400Z
+Cauta cititor dupa ID: 3,2026-05-25T12:29:52.568602600Z
+Adauga carte: Interview with the Vampire de Annie Rice,2026-05-25T12:32:08.633661600Z
+Adauga carte: Jocurile Foamei de Suzanne Collins,2026-05-25T12:33:18.714443200Z
+Adauga angajat: Roose Annie,2026-05-25T12:34:09.604306700Z
+Listeaza angajatii,2026-05-25T12:34:13.835226300Z
+Cauta angajat dupa ID: 2,2026-05-25T12:34:43.850966300Z
+Cauta angajat dupa ID: 1,2026-05-25T12:34:45.471578200Z
